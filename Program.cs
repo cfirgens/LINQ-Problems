@@ -10,6 +10,11 @@ namespace Linq_Problems
     {
         static void Main(string[] args)
         {
+            LinqPractice linq = new LinqPractice();
+
+            linq.ReturnStringNoDuplicate();
+            Console.ReadLine();
+            
         }
     }
 }
